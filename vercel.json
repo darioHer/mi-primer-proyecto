@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/pqrs",
+      "destination": "/api/pqrs.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

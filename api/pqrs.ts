@@ -9,21 +9,22 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware para JSON
 app.use(express.json());
 
-// Función auxiliar para leer los datos de PQRS desde data/pqrs.json
+// Leer datos de PQRS compatible con local y despliegues en Vercel
 export const getPqrsData = () => {
-  const filePath = path.resolve(__dirname, '../data/pqrs.json');
+  let filePath = path.resolve(process.cwd(), 'data/pqrs.json');
+  if (!fs.existsSync(filePath)) {
+    filePath = path.resolve(__dirname, '../data/pqrs.json');
+  }
   const rawData = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(rawData);
 };
 
-// Endpoint GET /api/pqrs
-app.get('/api/pqrs', (_req, res) => {
+const handlePqrs = (_req: express.Request, res: express.Response) => {
   try {
     const data = getPqrsData();
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.status(200).json(data);
   } catch (error) {
     console.error('Error al leer pqrs.json:', error);
@@ -31,12 +32,17 @@ app.get('/api/pqrs', (_req, res) => {
       error: 'Error interno del servidor al obtener las solicitudes PQRS' 
     });
   }
-});
+};
 
-// Iniciar servidor Express en el puerto 3001
-app.listen(PORT, () => {
-  console.log(`🚀 Servidor Backend PQRS ejecutándose en http://localhost:${PORT}`);
-  console.log(`📌 Endpoint de prueba: http://localhost:${PORT}/api/pqrs`);
-});
+// Rutas compatibles local y serverless Vercel
+app.get('/api/pqrs', handlePqrs);
+app.get('/', handlePqrs);
+
+// Iniciar puerto únicamente en entorno local (fuera de Vercel)
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Servidor Backend PQRS ejecutándose en http://localhost:${PORT}`);
+  });
+}
 
 export default app;
