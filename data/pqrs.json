@@ -1,0 +1,102 @@
+[
+  {
+    "id": "PQRS-2026-001",
+    "solicitante": "Carlos Mendoza",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Fuga de agua potable en tubería principal de la Calle 45 con Carrera 12.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-01",
+    "plazoLegal": "15 días hábiles",
+    "respuestaOficial": "Personal técnico realizó la reparación de la tubería principal y se restableció el servicio satisfactoriamente."
+  },
+  {
+    "id": "PQRS-2026-002",
+    "solicitante": "María Fernanda Gómez",
+    "categoria": "Recolección de Basura",
+    "descripcion": "Acumulación extraordinaria de desechos en el parque central del barrio La Esperanza.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-18",
+    "plazoLegal": "5 días hábiles",
+    "respuestaOficial": "Solicitud asignada al equipo de Limpia Pública para operativo especial de recolección en las próximas 24 horas."
+  },
+  {
+    "id": "PQRS-2026-003",
+    "solicitante": "Jorge Enrique Ramírez",
+    "categoria": "Alumbrado Público",
+    "descripcion": "Tres lámparas LED apagadas de forma continua en la Avenida Bolivar #23.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-05",
+    "plazoLegal": "10 días hábiles",
+    "respuestaOficial": "Se sustituyeron las tres luminarias LED defectuosas y se verificó el correcto funcionamiento del circuito eléctrico."
+  },
+  {
+    "id": "PQRS-2026-004",
+    "solicitante": "Ana Sofía Martínez",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Obstrucción en alcantarilla colectora generando malos olores y encharcamiento en vía pública.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-20",
+    "plazoLegal": "15 días hábiles",
+    "respuestaOficial": "Inspección programada con equipo especializado Vactor para desazolve y limpieza de la red colectora."
+  },
+  {
+    "id": "PQRS-2026-005",
+    "solicitante": "Luis Alberto Valencia",
+    "categoria": "Alumbrado Público",
+    "descripcion": "Poste de alumbrado inclinado y en peligro de caída tras fuertes vientos de la zona.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-12",
+    "plazoLegal": "3 días hábiles",
+    "respuestaOficial": "Cuadrilla de atención inmediata aseguró la estructura y reforzó la cimentación de la base del poste."
+  },
+  {
+    "id": "PQRS-2026-006",
+    "solicitante": "Claudia Patricia Henao",
+    "categoria": "Recolección de Basura",
+    "descripcion": "Aviso sobre incumplimiento de horario en la ruta nocturna de recolección de basura sector poniente.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-08",
+    "plazoLegal": "5 días hábiles",
+    "respuestaOficial": "Se notificó a la empresa concesionaria, reajustando la frecuencia y horario de recolección de la ruta."
+  },
+  {
+    "id": "PQRS-2026-007",
+    "solicitante": "Fernando José Castro",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Corte imprevisto del servicio de agua sin notificación previa en la colonia Del Valle.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-14",
+    "plazoLegal": "15 días hábiles",
+    "respuestaOficial": "Interrupción causada por daño accidental de empresa contratista; reparación completada y servicio restablecido."
+  },
+  {
+    "id": "PQRS-2026-008",
+    "solicitante": "Diana Marcela Torres",
+    "categoria": "Recolección de Basura",
+    "descripcion": "Punto crítico de acopio clandestino de escombros y restos vegetales en esquina de la Calle 18.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-21",
+    "plazoLegal": "8 días hábiles",
+    "respuestaOficial": "Jornada especial de retiro de escombros en proceso e instalación de letrero de prohibición."
+  },
+  {
+    "id": "PQRS-2026-009",
+    "solicitante": "Roberto Andrés Silva",
+    "categoria": "Alumbrado Público",
+    "descripcion": "Intermitencia y parpadeo constante en las luminarias del complejo deportivo municipal.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-19",
+    "plazoLegal": "10 días hábiles",
+    "respuestaOficial": "Revisión técnica en curso para sustitución de fotoceldas y mantenimiento de transformador local."
+  },
+  {
+    "id": "PQRS-2026-010",
+    "solicitante": "Esperanza Morales",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Tapa de registro de alcantarillado fracturada representando alto riesgo peatonal y vehicular.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-03",
+    "plazoLegal": "5 días hábiles",
+    "respuestaOficial": "Tapa reemplazada exitosamente por una nueva estructura de hierro dÚctil de alta resistencia."
+  }
+]
